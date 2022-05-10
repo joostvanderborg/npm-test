@@ -2,7 +2,7 @@ const { typescript } = require('projen');
 const { NpmAccess } = require('projen/lib/javascript');
 const project = new typescript.TypeScriptProject({
   defaultReleaseBranch: 'main',
-  name: 'npm-module',
+  name: 'joost-test-module-npm',
   release: true,
   publishTasks: true,
   npmAccess: NpmAccess.PUBLIC,

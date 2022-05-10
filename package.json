@@ -1,5 +1,5 @@
 {
-  "name": "npm-module",
+  "name": "joost-test-module-npm",
   "scripts": {
     "build": "npx projen build",
     "bump": "npx projen bump",
